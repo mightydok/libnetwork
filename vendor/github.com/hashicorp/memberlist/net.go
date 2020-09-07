@@ -71,7 +71,7 @@ const (
 	compoundOverhead       = 2   // Assumed overhead per entry in compoundHeader
 	userMsgOverhead        = 1
 	blockingWarning        = 10 * time.Millisecond // Warn if a UDP packet takes this long to process
-	maxPushStateBytes      = 10 * 1024 * 1024
+	maxPushStateBytes      = 20 * 1024 * 1024
 )
 
 // ping request sent directly to node
